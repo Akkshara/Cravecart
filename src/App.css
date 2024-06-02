@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Add any custom styles you need here */
+.card {
+  margin: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.form-label {
+  margin-bottom: 0;
+}
+
+.form-select {
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* App.css */
+.bill-summary {
+  position: sticky;
+  top: 20px;
+}
+
+.bill-summary .card {
+  margin: 0;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.bill-summary .card-body {
+  padding: 20px;
+}
+
+.bill-summary .btn {
+  width: 100%;
+}
+
+.cart-item-strip {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.cart-item-strip img {
+  border-radius: 50%;
 }
